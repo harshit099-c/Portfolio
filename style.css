@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "cursive-h";
+    src: url(./cursive.woff2);
+}
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 30px;
+    background-color: #BFECFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+#top-container{
+    color: #40514e;
+    background-color: #e4f9f5;
+    text-align: center;
+    position: relative;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 130vh;
+    padding-bottom: 30vh;
+}
+.title > h1{
+    font-family: "cursive-h";
+    font-size: 5.5rem;
+    margin-bottom: 30px;
+}
+#top-container > .first{
+    position: absolute;
+    right: 300px;
+    top: 80px;
+}
+
+@font-face {
+    font-family: "Montserrat",sans-serif;
+    src: url(./Poppins-Regular.ttf);
+}
+.title > h2{
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+span{
+    text-decoration: underline;
+}
+#top-container > .second{
+    position: absolute;
+    left: 220px;
+    bottom: 290px;
+}
+#top-container > .mount{
+
+    position: absolute;
+    bottom: 0%;
+   
+}
+#intro{
+    color: #40514e;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#intro > div{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+
+}
+div > .hello{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+div > p{
+    font-size: 1.25rem;
+}
+div > hr{
+    border: dotted #eaf6f6 6px ;
+    margin: 100px auto;
+    width: 4%;
+    border-bottom: none;
+    
+}
+#skills{
+    color: #40514e;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh auto;
+    flex-direction: column;
+    width: 100%;
+}
+#skills > h1{
+    padding-bottom: 60px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 2rem;
+}
+.wrapping{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    width: 50%;
+    gap: 10px;
+    text-align: left;
+    row-gap: 2.5rem;
+   
+}
+.content > h3{
+    color: #11999e;
+    font-family: "Montserrat",sans-serif;
+    margin-bottom: 10px;
+   
+}
+.content > p{
+    line-height: 2;
+}
+.chillies > img{
+    width: 120px;
+    height: 120px;
+}
+.para > h3{
+    color: #11999e;
+    font-family: "Montserrat",sans-serif;
+    margin-bottom: 10px;
+}
+.para > p{
+    line-height: 2;
+}
+.para > hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+#getintouch{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#getintouch > h1{
+    font-family: "Montserrat",sans-serif;
+    color: #66bfbf;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+#getintouch > h3{
+    font-family: "Montserrat",sans-serif;
+    color: #11999e;
+    margin-bottom: 40px;
+}
+#getintouch > p{
+    width: 520px;
+    line-height: 2;
+    font-weight: lighter;
+    margin-bottom: 50px ;
+}
+#getintouch > .btn{
+    height: 45px;
+    width: 175px;
+    background-color: #11cdd4;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.anchor{
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: "Montserrat",sans-serif;
+}
+.footer{
+    background-color: #66bfbf;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    font-family: "Montserrat",sans-serif;
+    color: #11999e;
+    padding: 20px;
+    font-size: 20px;
+}
+.lastline{
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+}
